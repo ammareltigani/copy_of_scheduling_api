@@ -1,0 +1,7 @@
+# The following cron calls on a script that clears all
+# past (old by a day) appointments, everyday at midnight sharp.
+
+# Add the next line to your local machine's crontab while replacing
+# <your_path_to_project> with the adequate path or read more in HOWTO.md
+
+0 0 * * * /<your_path_to_project>/scheduling-api/jobs/clear_db_job.py
